@@ -1,0 +1,25 @@
+shipyard Atlantean
+	"Nightingale"
+	"Swallow"
+	"LightSword"
+	"Dossonod"
+	"Colanaros"
+	"SharpSpear"
+	"LargeSword"
+	"Spider"
+	"Modified Kar Ik Vot"
+	"Modified Far Osk 27"
+	"ant"
+	"beetle"
+	"fire ant"
+	"fly"
+	"hornet"
+	"knat"
+
+shipyard Olin
+	Thorn
+	Swallow
+
+shipyard omnis
+	"Modified Kar Ik Vot"
+	"Modified Far Osk 27"

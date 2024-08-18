@@ -1,0 +1,24 @@
+outfitter Atlantean
+	"D56392 Reverse Thrusters"
+	"D56392 Steering"
+	"D56392 Thrusters"
+	Hyperdrive
+	Electrite
+	"Electrite Turret"
+	Eliectricythrower
+	"Darksword ranscoop"
+	"Swordlight cannon"
+	"Fire Afterburner"
+
+outfitter Cheat!
+	"D56392 Reverse Thrusters"
+	"D56392 Steering"
+	"D56392 Thrusters"
+	Hyperdrive
+	Electrite
+	"Electrite Turret"
+	Eliectricythrower
+	"Darksword ranscoop"
+	"Swordlight cannon"
+	"Radiation beam"
+

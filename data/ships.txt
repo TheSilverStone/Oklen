@@ -1,0 +1,1360 @@
+ship "Modified Kar Ik Vot"
+	sprite "ship/kar ik vot 349"
+	thumbnail "thumbnail/kar ik vot 349"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 41280000
+		"shields" 572000
+		"hull" 654000
+		"required crew" 150
+		"bunks" 300
+		"mass" 1000
+		"drag" 15
+		"heat dissipation" 25
+		"fuel capacity" 400000
+		"cargo space" 350
+		"outfit space" 10450
+		"weapon capacity" 1000
+		"engine capacity" 1730
+		"ramscoop" 30
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Korath Detainer" 2
+		"Warder Anti-Missile" 2
+		"Pug Gridfire Turret" 6
+		"Pug Seeker" 2
+		
+		"Triple Plasma Core" 8
+		"Systems Core (Large)" 15
+		"Large Heat Shunt" 18
+		"Small Heat Shunt" 18
+		
+		"Thruster (Planetary Class)" 2
+		"Steering (Stellar Class)" 2
+		"Ionic Afterburner" 68
+		Hyperdrive
+		"Jump Drive"
+	
+	engine -24 237
+	engine 24 237
+	gun -8 -212 "Korath Detainer"
+	gun 8 -212 "Korath Detainer"
+	gun -16 -158 "Pug Seeker"
+	gun 16 -158 "Pug Seeker"
+	turret -37 -150 "Pug Gridfire Turret"
+	turret 37 -150 "Pug Gridfire Turret"
+	turret -38 -132 "Pug Gridfire Turret"
+	turret 38 -132 "Pug Gridfire Turret"
+	turret -40 -111 "Pug Gridfire Turret"
+	turret 40 -111 "Pug Gridfire Turret"
+	turret -102 188 "Warder Anti-Missile"
+	turret 102 188 "Warder Anti-Missile"
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The largest and deadliest of the Kor Sestor robotic warships, a single one of these battlecruisers can hold its own against an entire fleet of lesser ships."
+
+ship "Modified Far Osk 27"
+	sprite "ship/far osk 27"
+	thumbnail "thumbnail/far osk 27"
+	"never disabled"
+	attributes
+		category "Fighter"
+		"cost" 761000
+		"shields" 150000
+		"hull" 240000
+		"fuel capacity" 400000000000
+		"bunks" 4
+		"required crew" 2
+		"mass" 34
+		"drag" 1.1
+		"heat dissipation" 1674675367567
+		"turn" 848
+		"energy generation" 97893684673967
+		"energy capacity" 946729382684
+		"outfit space" 9000
+		"weapon capacity" 22
+		"engine capacity" 2000
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Thermal Repeater" 2
+		
+		"Generator (Furnace Class)"
+		"Small Heat Shunt" 2
+		
+		"Thruster (Asteroid Class)"
+		"Steering (Asteroid Class)"
+		"Ionic Afterburner" 15
+		
+	engine -4 37
+	engine 4 37
+	gun 7 -15
+	gun 13 -8
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	description "Because it is piloted by a computer and has no need for a cockpit or life support systems, the FS27 fighter is able to support a thicker hull, more shields, and more powerful guns than any comparable human ship."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+
+
+ship Swallow
+	sprite "ship/swallow"
+	attributes
+		category "Fighter"
+		"cost" 20000
+		"shields" 10
+		"hull" 400
+		"required crew" 1
+		"bunks" 1
+		"mass" 150
+		"drag" 1.5
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 14
+		"weapon capacity" 120
+		"engine capacity" 95
+		"energy generation" 50
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 4
+
+	engine -17.5 32
+	gun -70.5 46
+		under
+	gun -21 102
+		under
+	turret -8 -7.5
+		under
+	turret -18.5 49
+		under
+	turret -10 74
+		under
+	turret -12 -38
+		under
+	engine 17.5 32
+	gun 70.5 46
+		under
+	gun 21 102
+		under
+	turret 8 -7.5
+		under
+	turret 18.5 49
+		under
+	turret 10 74
+		under
+	turret 12 -38
+		under
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Swallow is ideal for the Nightingale."
+
+ship "Nightingale"
+	sprite "ship/nightingale"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+		under
+	gun -12.75 -8.75 "Electrite"
+		under
+	gun -68 12.75 "Electrite"
+		under
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+		under
+	turret -9.25 24.75 "Electrite Turret"
+		under
+	turret -21 -63 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+		under
+	gun 10 -34.25 "Electrite"
+		under
+	gun 12.75 -8.75 "Electrite"
+		under
+	gun 68 12.75 "Electrite"
+		under
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+		under
+	turret 9.25 24.75 "Electrite Turret"
+		under
+	turret -21 63 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+		under
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "knat"
+	sprite "ship/knat"
+	thumbnail "thumbnail/knat"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+		under
+	gun -12.75 -8.75 "Electrite"
+		under
+	gun -68 12.75 "Electrite"
+		under
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+		under
+	turret -9.25 24.75 "Electrite Turret"
+		under
+	turret -21 -63 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+		under
+	gun 10 -34.25 "Electrite"
+		under
+	gun 12.75 -8.75 "Electrite"
+		under
+	gun 68 12.75 "Electrite"
+		under
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+		under
+	turret 9.25 24.75 "Electrite Turret"
+		under
+	turret -21 63 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+		under
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "fly"
+	sprite "ship/fly"
+	thumbnail "thumbnail/fly"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+		under
+	gun -12.75 -8.75 "Electrite"
+		under
+	gun -68 12.75 "Electrite"
+		under
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+		under
+	turret -9.25 24.75 "Electrite Turret"
+		under
+	turret -21 -63 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+		under
+	gun 10 -34.25 "Electrite"
+		under
+	gun 12.75 -8.75 "Electrite"
+		under
+	gun 68 12.75 "Electrite"
+		under
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+		under
+	turret 9.25 24.75 "Electrite Turret"
+		under
+	turret -21 63 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+		under
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "Spider"
+	sprite "ship/spider"
+	thumbnail "thumbnail/spider"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "beetle"
+	sprite "ship/beetle"
+	thumbnail "thumbnail/beetle"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "ant"
+	sprite "ship/ant"
+	thumbnail "thumbnail/ant"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "fire ant"
+	sprite "ship/fire ant"
+	thumbnail "thumbnail/fire ant"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "mosquito"
+	sprite "ship/mosquito"
+	thumbnail "thumbnail/mosquito"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "hornet"
+	sprite "ship/hornet"
+	thumbnail "thumbnail/hornet"
+	attributes
+		category "Light Warship"
+		"cost" 20000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 5
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -1 -1 "Electrite Turret"
+		under
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 1 1 "Electrite Turret"
+		under
+	turret -1 1 "Electrite Turret"
+		under
+	turret 1 -1 "Electrite Turret"
+		under
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "LightSword"
+	sprite "ship/LightSword"
+	attributes
+		category "Heavy Warship"
+		"cost" 2000000000
+		"shields" 700000
+		"hull" 1000000
+		"required crew" 12
+		"bunks" 45
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 1200
+		"cargo space" 600
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+		"Hyperdrive"
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "Dossonod"
+	sprite "ship/dossonod"
+	attributes
+		category "Heavy Warship"
+		"cost" 2000000000
+		"shields" 700000
+		"hull" 100000
+		"required crew" 14
+		"bunks" 60
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 6
+		"Electrite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+		"Hyperdrive"
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "SharpSpear"
+	sprite "ship/SharpSpear"
+	thumbnail "thumbnail/SharpSpear"
+	attributes
+		category "Heavy Warship"
+		"cost" 2000000000
+		"shields" 700000
+		"hull" 100000
+		"required crew" 80
+		"bunks" 120
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 10
+		"Hyperdrive"
+	gun -273.5 -183.5
+	gun -128.5 -289.5
+	engine -190.5 370.5
+	engine -141.5 372.5
+	gun -45.5 -370.5
+	gun -164.5 -70.5
+	gun -164.5 173.5
+	gun 273.5 -183.5
+	gun 128.5 -289.5
+	engine 190.5 370.5
+	engine 141.5 372.5
+	gun 45.5 -370.5
+	gun 164.5 -70.5
+	gun 164.5 173.5
+
+ship "Colanaros"
+	sprite "ship/colanaros"
+	attributes
+		category "Heavy Warship"
+		"cost" 2000000000
+		"shields" 700000
+		"hull" 100000
+		"required crew" 14
+		"bunks" 56
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 24
+		"Electrite Turret" 24
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+		"Hyperdrive"
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+ship "LargeSword"
+	sprite "ship/LargeSword"
+	attributes
+		category "Heavy Warship"
+		"cost" 200000000000
+		"shields" 7000000
+		"hull" 1000000
+		"required crew" 78
+		"bunks" 390
+		"mass" 800
+		"drag" 15
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Electrite" 24
+		"Electrite Turret" 24
+		"Hyperdrive"
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+		"Hyperdrive"
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret -21 -63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret -21 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -10.25 24.75 "Electrite Turret"
+	turret -22 -63 "Electrite Turret"
+	bay Fighter -6.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 5.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 9.26 24.75 "Electrite Turret"
+	turret -22 63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun 68 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret 21 -63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun 10 34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret 21 63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+		"Hyperdrive"
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 10.25 24.75 "Electrite Turret"
+	turret 22 -63 "Electrite Turret"
+	bay Fighter 6.5 1.25
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -5.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -9.26 24.75 "Electrite Turret"
+	turret 22 63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Electrite"
+	gun 12.75 -8.75 "Electrite"
+	gun -8 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Electrite Turret"
+	turret 9.25 24.75 "Electrite Turret"
+	turret 21 -63 "Electrite Turret"
+	bay Fighter 5.5 1.25
+	gun -10 -34.25 "Electrite"
+	gun -12.75 -8.75 "Electrite"
+	gun -68 12.75 "Electrite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Electrite Turret"
+	turret -9.25 24.75 "Electrite Turret"
+	turret 21 63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	gun 11 -34.25 "Electrite"
+	gun 13.75 -8.75 "Electrite"
+	gun 69 12.75 "Electrite"
+	`reverse engine` 4.5 93
+	`engine` 5.5 93
+	turret 14.5 -7.25 "Electrite Turret"
+	turret 10.25 24.75 "Electrite Turret"
+	turret 22 -63 "Electrite Turret"
+	bay Fighter 6.5 1.25
+	gun -11 -34.25 "Electrite"
+	gun -13.75 -8.75 "Electrite"
+	gun -69 12.75 "Electrite"
+	`reverse engine` -5.5 93
+	`engine` -5.5 93
+	turret -14.5 -7.25 "Electrite Turret"
+	turret -9.26 24.75 "Electrite Turret"
+	turret 22 63 "Electrite Turret"
+	bay Fighter -5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
+
+
+ship "Thorn"
+	sprite "ship/thorn"
+	attributes
+		category "Heavy Warship"
+		"cost" 2000000
+		"shields" 70000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 12
+		"mass" 650
+		"drag" 10.3
+		"heat dissipation" 9999
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 10000
+		"engine capacity" 1000
+		weapon
+			"blast radius" 800
+			"shield damage" 900
+			"hull damage" 900
+			"hit force" 1200
+	outfits
+		"D56392 Steering"
+		"D56392 Reverse Thrusters"
+		"D56392 Thrusters"
+		"Derminite" 6
+		"Derminite Turret" 6
+		"Hyperdrive"
+	gun -10 -34.25 "Derminite"
+	gun -12.75 -8.75 "Derminite"
+	gun -68 12.75 "Derminite"
+	`reverse engine` -4.5 93
+	`engine` -4.5 93
+	turret -13.5 -7.25 "Derminite Turret"
+	turret -9.25 24.75 "Derminite Turret"
+	turret -18.5 69.75 "Derminite Turret"
+	bay Fighter -5.5 1.25
+	gun 10 -34.25 "Derminite"
+	gun 12.75 -8.75 "Derminite"
+	gun 68 12.75 "Derminite"
+	`reverse engine` 4.5 93
+	`engine` 4.5 93
+	turret 13.5 -7.25 "Derminite Turret"
+	turret 9.25 24.75 "Derminite Turret"
+	turret 18.5 69.75 "Derminite Turret"
+	bay Fighter 5.5 1.25
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Thorn is the best ship of the Olin decade, and the Olin use them to rival the Nightingale."

@@ -1,0 +1,92 @@
+fleet "Small Atlantean"
+	government Atlantean
+	names 0-F
+	fighters 0-F
+	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
+	personality
+		heroic
+		nemesis
+		marked
+		confusion 100
+	variant
+		Nightingale 10
+	variant 2
+		Nightingale 9
+	variant 3
+		Nightingale 8
+	variant 4
+		Nightingale 7
+	variant 5
+		Nightingale 6
+	variant 6
+		Nightingale 5
+	variant 7
+		Nightingale 4
+	variant 8
+		Nightingale 3
+	variant 9
+		Nightingale 2
+	variant 10
+		Nightingale 1
+
+fleet "Large Atlantean"
+	government Atlantean
+	names 0-F
+	fighters 0-F
+	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
+	personality
+		heroic
+		nemesis
+		marked
+		confusion 100
+	variant
+		Dossonod 10
+	variant 2
+		SharpSpear 1
+	variant 3
+		Colanaros 8
+	variant 4
+		LargeSword 7
+	variant 200
+		Swallow 10
+	variant 3
+		LightSword 10
+
+fleet "Small Ali-Ollioinn"
+	government "Navy"
+	names "free worlds capital"
+	commodities Food
+	personality 
+		heroic
+		confusion 1
+	variant
+		Thorn
+
+fleet "Small Ali-Ollinn"
+	government "Ali-Ollinn"
+	names "(reason why someone is an alien)"
+	fighters "(reason why someone is an alien)"
+	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
+	personality
+		heroic
+		confusion 100
+	variant 1
+		Thorn 10
+	variant 2
+		Thorn 9
+	variant 3
+		Thorn 8
+	variant 4
+		Thorn 7
+	variant 5
+		Thorn 6
+	variant 6
+		Thorn 5
+	variant 7
+		Thorn 4
+	variant 8
+		Thorn 3
+	variant 9
+		Thorn 2
+	variant 10
+		Thorn 1
