@@ -2,6 +2,9 @@ outfitter Atlantean
 	"D56392 Reverse Thrusters"
 	"D56392 Steering"
 	"D56392 Thrusters"
+	"D46392 Reverse Thrusters"
+	"D46392 Steering"
+	"D46392 Thrusters"
 	Hyperdrive
 	Electrite
 	"Electrite Turret"
