@@ -136,9 +136,9 @@ ship Swallow
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"D56392 Steering"
-		"D56392 Reverse Thrusters"
-		"D56392 Thrusters"
+		"D46392 Steering"
+		"D46392 Reverse Thrusters"
+		"D46392 Thrusters"
 		"Electrite" 4
 
 	engine -17.5 32
@@ -191,10 +191,10 @@ ship "Nightingale"
 		"heat dissipation" 9999
 		"fuel capacity" 600
 		"cargo space" 60
-		"outfit space" 1000
+		"outfit space" 1150
 		"weapon capacity" 1000
 		"energy generation" 10000
-		"engine capacity" 1000
+		"engine capacity" 15000
 		weapon
 			"blast radius" 800
 			"shield damage" 900

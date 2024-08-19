@@ -4,9 +4,9 @@ outfit "D56392 Thrusters"
 	"cost" 960000
 	plural "Purple thrusters"
 	thumbnail "outfit/Purple thrusters"
-	"mass" 2
-	"outfit space" -2
-	"engine capacity" -2
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -500
 	"thrust" 200
 	"thrusting energy" 1.8
 	"thrusting heat" 3.5
