@@ -19,75 +19,26 @@ outfit "D56392 Thrusters"
 		"frame rate" 11
 	description "This is a very nice set of thrusters."
 
-outfit "Swordlight cannon"
-	category "Secondary Weapons"
-	cost 150000000
-	thumbnail "outfit/Swordlight cannon"
-	"mass" 1
-	"outfit space" -1
-	"weapon capacity" -1
-	"required crew" 1
-	"gun ports" -1
-	weapon
-		sound "ambient/Stars"
-		icon "icon/dragonflame"
-		"fire effect" "dragonflame"
-		"hit effect" "bright hit"
-		"hit effect" "dragonflame plasma" 3
-		"hit effect" "dragonflame debris" 5
-		"velocity" 2000
-		"lifetime" 1
-		"reload" 18
-		"firing energy" 16
-		"firing fuel" 0
-		"firing heat" 40
-		"firing force" 1000
-		"hit force" 2000
-		"shield damage" 25000
-		"hull damage" 15000
-		"heat damage" 50000
-		"piercing" 300
-		"blast radius" 130
-	description "The Eulb knew what they were doing when they made this weapon, and it uses almost nothing for firing"
-
-effect "dragonflame"
-	sprite "effect/dragonflame"
-		"no repeat"
-		"frame rate" 12
-	"lifetime" 21
-	"velocity scale" 1
-
-effect "bright hit"
-	sprite "effect/explosion/nuke"
-		"no repeat"
-		"frame rate" 60
-	sound "explosion nuke"
-	"lifetime" 7
-	"random angle" 360
-	"random spin" 30
-	"velocity scale" 0.005
-
-effect "dragonflame plasma"
-	sprite "effect/explosion/large"
-		"no repeat"
-		"frame rate" 20
-	"lifetime" 25
-	"random frame rate" 20
-	"random spin" 5
-	"random angle" 15
-	"random velocity" 40
-	"velocity scale" 0.002
-
-effect "dragonflame debris"
-	sprite "effect/bolide"
-		"no repeat"
-		"frame rate" 6
-	"lifetime" 60
-	"random frame rate" 6
-	"random angle" 25
-	"random spin" 60
-	"random velocity" 30
-	"velocity scale" 0.001
+outfit "D46392 Thrusters"
+	category "Engines"
+	index 42
+	"cost" 960000
+	plural "D46392 thrusters"
+	thumbnail "outfit/D46392 thrusters"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -250
+	"thrust" 100
+	"thrusting energy" .5
+	"thrusting heat" 1.5
+	"flare sprite" "effect/aten1"
+		"frame rate" 1
+	"flare sound" "ion tiny"
+	"steering flare sprite" "effect/aten1"
+		"frame rate" 1.2
+	"steering flare sprite" "effect/aten1"
+		"frame rate" 11
+	description "This is a very nice set of thrusters."
 
 outfit "Darksword ranscoop"
 	category "Systems"
@@ -104,18 +55,67 @@ outfit "D56392 Steering"
 	"cost" 1920000
 	plural "Purple Steerers"
 	thumbnail "outfit/Purple Steerers"
-	"mass" 2
-	"outfit space" -2
-	"engine capacity" -2
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -500
 	"turn" 2000
-#	"turning energy" 6.6
-#	"turning heat" 17.5
-#	"steering slot" -1
+	"turning energy" 6.6
+	"turning heat" 17.5
 	"steering flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"steering flare sound" "atomic huge"
 	description "This is the Atlantean's best steering."
 
+
+outfit "D46392 Reverse Thrusters"
+	category "Engines"
+	index 18
+	"cost" 140000
+	thumbnail "outfit/D46392 reverse thrusters"
+	plural "Purple Reverse Thrusters"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -250
+	"reverse thrust" 9
+	"reverse thrusting energy" .5
+	"reverse thrusting heat" 1.5
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 7
+	"reverse flare sound" "atomic tiny"
+
+outfit "D56392 Steering"
+	category "Engines"
+	index 52
+	"cost" 1920000
+	plural "Purple Steerers"
+	thumbnail "outfit/Purple Steerers"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -500
+	"turn" 2000
+	"turning energy" 6.6
+	"turning heat" 17.5
+	"steering flare sprite" "effect/atomic flare/huge"
+		"frame rate" 10
+	"steering flare sound" "atomic huge"
+	description "This is the Atlantean's best steering."
+
+outfit "D46392 Steering"
+	category "Engines"
+	index 52
+	"cost" 1920000
+	plural "D46392 Steering thrusters"
+	thumbnail "outfit/D46392 steering"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -250
+	"turn" 1000
+	"turning energy" 6.6
+	"turning heat" 17.5
+	"steering flare sprite" "effect/atomic flare/huge"
+		"frame rate" 10
+	"steering flare sound" "atomic huge"
+	description "This is the Atlantean's best steering."
 
 outfit "D56392 Reverse Thrusters"
 	category "Engines"
@@ -123,41 +123,13 @@ outfit "D56392 Reverse Thrusters"
 	"cost" 140000
 	thumbnail "outfit/Purple Reverse Thrusters"
 	plural "Purple Reverse Thrusters"
-	"mass" 2
-	"outfit space" -2
-	"engine capacity" -2
-#	"reverse thrust" 18.68
-#	"reverse thrusting energy" 1.8
-#	"reverse thrusting heat" 3.5
-#	"reverse thruster slot" -1
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -500
+	"reverse thrust" 18.68
+	"reverse thrusting energy" 1.8
+	"reverse thrusting heat" 3.5
 	"reverse flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
 	description "This is considered the only pair of reverse thrusters the Atlantean have."
-
-
-outfit "Fire Afterburner"
-	category "Engines"
-	index 30
-	"cost" 340000
-	thumbnail "outfit/ionic afterburner"
-	"mass" 16
-	"outfit space" -16
-	"engine capacity" -16
-	"afterburner thrust" 47.1
-	"afterburner fuel" .003
-	"afterburner energy" 1.1
-	"afterburner heat" 8.0
-	"afterburner effect" "fire afterburner"
-	description "The Ionic Afterburner was designed by the Syndicate to compensate for the primary weakness of an ordinary afterburner: namely, that it consumes hyperspace fuel at a prodigious rate. Ionic afterburners instead use a small amount of fuel combined with a large burst of energy from your ship's batteries to achieve the same effect."
-
-effect "fire afterburner"
-	sprite "effect/fire afterburner"
-		"no repeat"
-		"frame rate" 30
-	sound "ionic afterburner"
-	"lifetime" 12
-	"random angle" 360
-	"random spin" 30
-	"random velocity" 1.
-	"velocity scale" 1.
