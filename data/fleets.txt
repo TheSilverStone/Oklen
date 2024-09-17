@@ -40,6 +40,37 @@ fleet "Large Atlantean"
 		marked
 		confusion 100
 	variant
+		swallow 10
+	variant 2
+		LightSword 9
+	variant 3
+		Dossonod 8
+	variant 4
+		SharpSpear 7
+	variant 5
+		Colanaros 6
+	variant 6
+		Largesword 5
+	variant 7
+		Shark 4
+	variant 8
+		Nightingale 3
+	variant 9
+		Nightingale 2
+	variant 10
+		Nightingale 1
+
+fleet "Medium Atlantean"
+	government Atlantean
+	names 0-F
+	fighters 0-F
+	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
+	personality
+		heroic
+		nemesis
+		marked
+		confusion 100
+	variant
 		Dossonod 10
 	variant 2
 		SharpSpear 1
@@ -52,7 +83,7 @@ fleet "Large Atlantean"
 	variant 3
 		LightSword 10
 
-fleet "Small Ali-Ollioinn"
+fleet "Small Olin"
 	government "Navy"
 	names "free worlds capital"
 	commodities Food
@@ -62,7 +93,7 @@ fleet "Small Ali-Ollioinn"
 	variant
 		Thorn
 
-fleet "Small Ali-Ollinn"
+fleet "Small Olin"
 	government "Ali-Ollinn"
 	names "(reason why someone is an alien)"
 	fighters "(reason why someone is an alien)"

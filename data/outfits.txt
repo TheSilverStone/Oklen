@@ -1,3 +1,15 @@
+outfit "horndor regenerator"
+	category "Systems"
+	cost 800000
+	thumbnail "outfit/horndor regenerator"
+	"mass" 6
+	"outfit space" 30
+	"shield generation" 6
+	"shield energy" 14
+	"energy consumption" 12
+	"heat generation" -3
+	description "The S-970 Shield Regenerator is an advanced type of shield recharging technology. Unfortunately, its power needs are rather high, and the shifts it makes in your shield configuration also result in some feedback that causes heat to build up in the regenerator, even when your shields are at full strength."
+
 outfit "D56392 Thrusters"
 	category "Engines"
 	index 42
@@ -18,6 +30,34 @@ outfit "D56392 Thrusters"
 	"steering flare sprite" "effect/aten"
 		"frame rate" 11
 	description "This is a very nice set of thrusters."
+
+outfit "Ilecan Thrusters"
+	category "Engines"
+	index 42
+	"cost" 960000
+	plural "Purple thrusters"
+	thumbnail "outfit/Purple thrusters"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -500
+	"sound" "reg-engine"
+	"turn" 2000
+	"turning energy" 6.6
+	"turning heat" 17.5
+	"thrust" 200
+	"thrusting energy" 1.8
+	"thrusting heat" 3.5
+	"reverse thrust" 9
+	"reverse thrusting energy" .5
+	"reverse thrusting heat" 1.5
+	"flare sprite" "effect/Flare"
+		"frame rate" 1
+	"flare sound" "ion tiny"
+	"steering flare sprite" "effect/Flare"
+		"frame rate" 1.2
+	"steering flare sprite" "effect/Flare"
+		"frame rate" 11
+	description "This is a set of thrusters made in the RedField war, when the Rel's empire's technology was at its peak."
 
 outfit "D46392 Thrusters"
 	category "Engines"

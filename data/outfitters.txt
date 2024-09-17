@@ -12,6 +12,10 @@ outfitter Atlantean
 	"Darksword ranscoop"
 	"Swordlight cannon"
 	"Fire Afterburner"
+	"Ice-Laser"
+	"horndor regenerator"
+	"Triple Plasma Core"
+	"Ilcecan Turret"
 
 outfitter Cheat!
 	"D56392 Reverse Thrusters"

@@ -1,5 +1,6 @@
 shipyard Atlantean
 	"Nightingale"
+	"Shark"
 	"Swallow"
 	"LightSword"
 	"Dossonod"
@@ -15,6 +16,7 @@ shipyard Atlantean
 	"fly"
 	"hornet"
 	"knat"
+	"Warfield"
 
 shipyard Olin
 	Thorn

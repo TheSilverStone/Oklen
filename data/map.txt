@@ -164,9 +164,9 @@ system Olin
 		period 3392.969
 
 planet Caldom
-	landscape land/IMG_6207
-	description "this is the atlantean capital. The olin hesitate to jump to this system, as the atlantean fleets are the most destructive in shent space."
-	spaceport "No doubt this was formed by emeralds raining from the sky."
+	landscape land/badlands45
+	description "this is the olin capital. Ruins and skeletons are everywhere. It is a place of evil, and you might think twice before revisiting it."
+	spaceport "this probably was made by millions of slaves, for otherwise it wouldn't be this big."
 
 system Alani
 	pos 3861 8026.125
@@ -1232,10 +1232,54 @@ system "Sol Der"
 	trade Plastic 514
 	fleet "Small Atlantean" 300
 	fleet "Large Atlantean" 400
-	object Haldemdor
-		sprite planet/dust5-b
-		distance 1000.653
-		period 120
+	fleet "Medium Atlantean" 600
+		object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/gas15
+		distance 639
+		period 117.964
+	object
+		sprite planet/gas10-b
+		distance 1143
+		period 282.208
+	object
+		sprite planet/gas11-b
+		distance 2024
+		period 664.99
+		object
+			sprite planet/callisto-b
+			distance 281
+			period 123.276
+		object
+			sprite planet/luna
+			distance 394
+			period 295.628
+	object
+		sprite planet/vesvi
+		distance 4015
+		period 1857.923
+		object
+			sprite planet/rock7
+			distance 450
+			period 451.576
+		object
+			sprite planet/ice8
+			distance 599
+			period 554.167
+	object
+		sprite planet/gas13-b
+		distance 9279
+		period 6527.564
+		object
+			sprite planet/rock3-b
+			distance 293
+			period 189.584
+		object Haldemdor
+			sprite planet/rock17
+			distance 432
+			period 552.993
 
 planet Haldemdor
 	landscape land/IMG_6207
@@ -3185,8 +3229,8 @@ system Kolndorsed
 
 planet Kimsonol
 	landscape land/badlands3
-	description "This planet orbits a small red star, and many animals and insects are here. dosn't really belong to any off these, but is used (and often inhabitied) by the cormon."
-	spaceport "there is hardly anything, and there aren't enough captins to get a job."
+	description "This planet orbits a small red star, and many animals and insects are here. dosn't really belong to any off these, but is used (and often inhabitied) by the Olin."
+	spaceport "there is hardly anything, and there aren't enough captins who have jobs to offer to get a one."
 	government Cormon
 	tribute 120
 
