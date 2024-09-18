@@ -640,13 +640,15 @@ system Balim
 		distance 1117.8
 
 planet Reson
+	wormhole Reson
 
 wormhole Reson
 	link Govred Falam
 	link Falam Govred
 	color "wormholes: Ember Waste"
 
-planet sendo
+planet ???
+	wormhole sendo
 
 wormhole sendo
 	link Cartack Targon
@@ -654,6 +656,7 @@ wormhole sendo
 	color "wormholes: Ember Waste"
 
 planet "Atlantean Wormhole"
+	wormhole "Atlantean Wormhole"
 
 wormhole "Atlantean Wormhole"
 	link Vaiov Balim
@@ -661,54 +664,63 @@ wormhole "Atlantean Wormhole"
 	color "wormholes: Ember Waste"
 
 planet Red1
+	wormhole Red1
 
 wormhole Red1
 	link Aliani Falam
 	color "wormholes: Ember Waste"
 
 planet Red2
+	wormhole Red2
 
 wormhole Red2
 	link Aliani Alinina
 	color "wormholes: Ember Waste"
 
 planet Blue1
+	wormhole Blue1
 
 wormhole Blue1
 	link Aliani Geoto
 	color "wormholes: Ember Waste"
 
 planet Blue2
+	wormhole Blue2
 
 wormhole Blue2
 	link Aliani Juoken
 	color "wormholes: Ember Waste"
 
 planet Yellow1
+	wormhole Yellow1
 
 wormhole Yellow1
 	link Aliani Cabiand
 	color "wormholes: Ember Waste"
 
 planet Yellow2
+	wormhole Yellow1
 
 wormhole Yellow2
 	link Aliani Guodre
 	color "wormholes: Ember Waste"
 
 planet Green1
+	wormhole Green1
 
 wormhole Green1
 	link Aliani Alnor
 	color "wormholes: Ember Waste"
 
 planet Green2
+	wormhole Green2
 
 wormhole Green2
 	link Aliani Herlo
 	color "wormholes: Ember Waste"
 
 planet Death1
+	wormhole Death1
 
 wormhole Death1
 	link Aliani Alfanian

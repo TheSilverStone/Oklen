@@ -195,6 +195,157 @@ ship "Warfield"
 	"final explode" "final explosion large"
 	description "The largest and deadliest Warship of the Rel, it is one of the most powerful of all battlecruisers in shent space."
 
+ship "Combatrealm"
+	sprite "ship/battlezone"
+	thumbnail "thumbnail/battlezone"
+	swizzle 0
+	attributes
+		category "Fighter"
+		"cost" 41280000
+		"shields" 572
+		"hull" 654
+		"required crew" 2
+		"bunks" 3
+		"mass" 950
+		"drag" 15
+		"heat dissipation" 25
+		"fuel capacity" 0
+		"cargo space" 10
+		"outfit space" 40
+		"weapon capacity" 1000
+		"engine capacity" 1730
+		"ramscoop" 1
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Radiation beam" 4
+		"Ilcan anti- missile" 2
+		"Ilcecan Turret" 6
+		
+		"Triple Plasma Core" 8
+		"Systems Core (Large)" 15
+		"Large Heat Shunt" 18
+		"Small Heat Shunt" 18
+		
+		"Ilecan Thrusters" 2
+		Hyperdrive
+		"Jump Drive"
+	
+	engine -14.5 294
+	engine -8.5 294
+	engine -12.5 294
+	engine -4.5 294
+	engine 14.5 294
+	engine 8.5 294
+	engine 12.5 294
+	engine 4.5 294
+	turret 37 -150
+		under
+	turret 37 -150
+		under
+	turret -38 -132
+		under
+	turret 38 -132
+		under
+	turret -40 -111
+		under
+	turret 40 -111
+		under
+	turret -102 188
+		under
+	turret 102 188
+		under
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The largest and deadliest Warship of the Rel, it is one of the most powerful of all battlecruisers in shent space."
+
+
+ship "battlezone"
+	sprite "ship/battlezone"
+	thumbnail "thumbnail/battlezone"
+	swizzle 0
+	attributes
+		category "Fighter"
+		"cost" 41280000
+		"shields" 572
+		"hull" 654
+		"required crew" 2
+		"bunks" 3
+		"mass" 950
+		"drag" 15
+		"heat dissipation" 25
+		"fuel capacity" 0
+		"cargo space" 10
+		"outfit space" 40
+		"weapon capacity" 1000
+		"engine capacity" 1730
+		"ramscoop" 1
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Radiation beam" 4
+		"Ilcan anti- missile" 2
+		"Ilcecan Turret" 6
+		
+		"Triple Plasma Core" 8
+		"Systems Core (Large)" 15
+		"Large Heat Shunt" 18
+		"Small Heat Shunt" 18
+		
+		"Ilecan Thrusters" 2
+		Hyperdrive
+		"Jump Drive"
+	
+	engine -14.5 294
+	engine -8.5 294
+	engine -12.5 294
+	engine -4.5 294
+	engine 14.5 294
+	engine 8.5 294
+	engine 12.5 294
+	engine 4.5 294
+	turret 37 -150
+		under
+	turret 37 -150
+		under
+	turret -38 -132
+		under
+	turret 38 -132
+		under
+	turret -40 -111
+		under
+	turret 40 -111
+		under
+	turret -102 188
+		under
+	turret 102 188
+		under
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The largest and deadliest Warship of the Rel, it is one of the most powerful of all battlecruisers in shent space."
+
 ship "Modified Far Osk 27"
 	sprite "ship/far osk 27"
 	thumbnail "thumbnail/far osk 27"
