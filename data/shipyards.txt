@@ -17,6 +17,7 @@ shipyard Atlantean
 	"hornet"
 	"knat"
 	"Warfield"
+	"Battlezone"
 	"Combatrealm"
 
 shipyard Olin

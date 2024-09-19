@@ -196,8 +196,8 @@ ship "Warfield"
 	description "The largest and deadliest Warship of the Rel, it is one of the most powerful of all battlecruisers in shent space."
 
 ship "Combatrealm"
-	sprite "ship/battlezone"
-	thumbnail "thumbnail/battlezone"
+	sprite "ship/combatrealm"
+	thumbnail "thumbnail/combatrealm"
 	swizzle 0
 	attributes
 		category "Fighter"
@@ -271,23 +271,23 @@ ship "Combatrealm"
 	description "The largest and deadliest Warship of the Rel, it is one of the most powerful of all battlecruisers in shent space."
 
 
-ship "battlezone"
+ship "Battlezone"
 	sprite "ship/battlezone"
 	thumbnail "thumbnail/battlezone"
 	swizzle 0
 	attributes
-		category "Fighter"
+		category "Light Warship"
 		"cost" 41280000
-		"shields" 572
-		"hull" 654
-		"required crew" 2
-		"bunks" 3
+		"shields" 5720
+		"hull" 6540
+		"required crew" 75
+		"bunks" 130
 		"mass" 950
 		"drag" 15
 		"heat dissipation" 25
-		"fuel capacity" 0
-		"cargo space" 10
-		"outfit space" 40
+		"fuel capacity" 900
+		"cargo space" 100
+		"outfit space" 400
 		"weapon capacity" 1000
 		"engine capacity" 1730
 		"ramscoop" 1
@@ -310,14 +310,52 @@ ship "battlezone"
 		Hyperdrive
 		"Jump Drive"
 	
-	engine -14.5 294
-	engine -8.5 294
-	engine -12.5 294
-	engine -4.5 294
-	engine 14.5 294
-	engine 8.5 294
-	engine 12.5 294
-	engine 4.5 294
+	engine -55 315
+	engine -52 315
+	engine -49 315
+	engine -46 315
+	engine -43 315
+	engine -40 315
+	engine -37 315
+	engine -34 315
+	engine -31 315
+	engine -28 315
+	engine -25 315
+	engine -22 315
+	engine -19 315
+	engine -16 315
+	engine -13 315
+	engine -10 315
+	engine -7 315
+	engine 55 315
+	engine 52 315
+	engine 49 315
+	engine 46 315
+	engine 43 315
+	engine 40 315
+	engine 37 315
+	engine 34 315
+	engine 31 315
+	engine 28 315
+	engine 25 315
+	engine 22 315
+	engine 19 315
+	engine 16 315
+	engine 13 315
+	engine 10 315
+	engine 7 315
+	engine -42 399
+	engine -38 399
+	engine -34 399
+	engine -30 399
+	engine -26 399
+	engine -24 399
+	engine 42 399
+	engine 38 399
+	engine 34 399
+	engine 30 399
+	engine 26 399
+	engine 24 399
 	turret 37 -150
 		under
 	turret 37 -150
