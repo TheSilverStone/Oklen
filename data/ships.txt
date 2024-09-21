@@ -201,11 +201,11 @@ ship "Combatrealm"
 	swizzle 0
 	attributes
 		category "Fighter"
-		"cost" 41280000
+		"cost" 4128000
 		"shields" 572
 		"hull" 654
-		"required crew" 2
-		"bunks" 3
+		"required crew" 5
+		"bunks" 12
 		"mass" 950
 		"drag" 15
 		"heat dissipation" 25
@@ -214,7 +214,6 @@ ship "Combatrealm"
 		"outfit space" 40
 		"weapon capacity" 1000
 		"engine capacity" 1730
-		"ramscoop" 1
 		weapon
 			"blast radius" 450
 			"shield damage" 6400
@@ -231,37 +230,19 @@ ship "Combatrealm"
 		"Small Heat Shunt" 18
 		
 		"Ilecan Thrusters" 2
-		Hyperdrive
-		"Jump Drive"
 	
-	engine -14.5 294
-	engine -8.5 294
-	engine -12.5 294
-	engine -4.5 294
-	engine 14.5 294
-	engine 8.5 294
-	engine 12.5 294
-	engine 4.5 294
+	engine -14.5 143
+	engine -8.5 143
+	engine -12.5 143
+	engine -4.5 143
+	engine 14.5 143
+	engine 8.5 143
+	engine 12.5 143
+	engine 4.5 143
 	turret 37 -150
 		under
 	turret 37 -150
 		under
-	turret -38 -132
-		under
-	turret 38 -132
-		under
-	turret -40 -111
-		under
-	turret 40 -111
-		under
-	turret -102 188
-		under
-	turret 102 188
-		under
-	bay Fighter 0 0
-	bay Fighter 0 0
-	bay Fighter 0 0
-	bay Fighter 0 0
 	explode "tiny explosion" 120
 	explode "small explosion" 60
 	explode "medium explosion" 70
