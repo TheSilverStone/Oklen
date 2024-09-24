@@ -1,12 +1,12 @@
 shipyard Atlantean
-	"Nightingale"
-	"Shark"
-	"Swallow"
-	"LightSword"
+	"Ruisenor"
+	"Tiburon"
+	"Tragar"
+	"Espadadelu"
 	"Dossonod"
 	"Colanaros"
-	"SharpSpear"
-	"LargeSword"
+	"Afiladora"
+	"Espadagran"
 	"Spider"
 	"Modified Kar Ik Vot"
 	"Modified Far Osk 27"
@@ -19,6 +19,7 @@ shipyard Atlantean
 	"Warfield"
 	"Battlezone"
 	"Combatrealm"
+	"Hai Invader"
 
 shipyard Olin
 	Thorn

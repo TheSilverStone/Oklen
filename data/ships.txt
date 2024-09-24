@@ -411,7 +411,7 @@ ship "Modified Far Osk 27"
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
-ship Swallow
+ship "Tragar"
 	sprite "ship/swallow"
 	attributes
 		category "Fighter"
@@ -476,7 +476,7 @@ ship Swallow
 	"final explode" "final explosion medium"
 	description "The Swallow is ideal for the Nightingale."
 
-ship "Nightingale"
+ship "Ruisenor"
 	sprite "ship/nightingale"
 	thumbnail "thumbnail/nightingale"
 	attributes
@@ -1066,7 +1066,7 @@ ship "hornet"
 	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
 
 
-ship "LightSword"
+ship "Espadadelu"
 	sprite "ship/LightSword"
 	attributes
 		category "Heavy Warship"
@@ -1257,7 +1257,7 @@ ship "Dossonod"
 	"final explode" "final explosion medium"
 	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
 
-ship "SharpSpear"
+ship "Afiladora"
 	sprite "ship/SharpSpear"
 	thumbnail "thumbnail/SharpSpear"
 	attributes
@@ -1415,7 +1415,7 @@ ship "Colanaros"
 	"final explode" "final explosion medium"
 	description "The Nightingale is the best ship of the Atlantean decade, and the Atlantean use them for different uses."
 
-ship "LargeSword"
+ship "Espadagran"
 	sprite "ship/LargeSword"
 	attributes
 		category "Heavy Warship"
@@ -1660,7 +1660,7 @@ ship "Thorn"
 	"final explode" "final explosion medium"
 	description "The Thorn is the best ship of the Olin decade, and the Olin use them to rival the Nightingale."
 
-ship Shark
+ship "Tiburon"
 	sprite "ship/shark"
 	thumbnail "thumbnail/shark"
 	attributes
@@ -1725,3 +1725,69 @@ ship Shark
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The Swallow is ideal for the Nightingale."
+
+ship "Hai Invader"
+	sprite "ship/hai invader"
+	thumbnail "thumbnail/hai invader"
+	swizzle 0
+	attributes
+		category "Medium Warship"
+		"cost" 17900000
+		"shields" 31500
+		"hull" 9900
+		"required crew" 50
+		"bunks" 120
+		"mass" 1881
+		"drag" 16.3
+		"heat dissipation" .33
+		"fuel capacity" 500
+		"cargo space" 142
+		"outfit space" 798
+		"weapon capacity" 333
+		"engine capacity" 150
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
+	outfits
+		"Ion Cannon" 4
+		"Hai Tracker Pod" 4
+		"Hai Tracker" 280
+		"Tracker Storage Pod" 2
+		"Bullfrog Anti-Missile" 4
+		"Hai Cuttlefish Jammer" 3
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Valley Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 3
+		"Quantum Keystone"
+		"Pulse Rifle" 55
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Hyperdrive"
+	engine -44 133
+	engine 44 133
+	gun -22 -102 "Ion Cannon"
+	gun 22 -102 "Ion Cannon"
+	gun -34 -68 "Hai Tracker Pod"
+	gun 34 -68 "Hai Tracker Pod"
+	gun -49 -38 "Ion Cannon"
+	gun 49 -38 "Ion Cannon"
+	gun -61 -14 "Hai Tracker Pod"
+	gun 61 -14 "Hai Tracker Pod"
+	turret -39 48
+	turret 39 48
+	turret -57 75
+	turret 57 75
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "This ship was first built millennia ago, near the end of withdrawing from human space, and you assume that this ship can only be seen in unfettered space."

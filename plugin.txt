@@ -1,1 +1,2 @@
-description "This adds an alien race called the atlantean, they are from the island of Atlantis."
+name "Atlanteans"
+about "This adds an alien race called the atlantean, they escaped when their island Atlantis sank. In their non-finished storyline they are invaded by the unfettered. I would appreciate it if anyone would make sprites for me, except for the Warfield, Battlezone and Combatrealm."

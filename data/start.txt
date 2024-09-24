@@ -1,18 +1,23 @@
-conversation "blank"
+conversation "Name"
 	scene "scene/lobby"
-	label start
-	`What is your name?`
+	`you step out of the elevator, and walk forwards to the high desk. In the backround, a map of atlantean space is projected on the wall. As you step forwards, the bank teller looks at you as if he's trying to decide to give you a loan or not. He tells you "sign here. And here, and here," until you are buried in a pile of papers, and he reasks you "are you sure? I asure you this is a non-returnable loan.`
+	choice 
+		`	"yes, I'm sure"`
+			goto Yes
+		`	"no, I'm not sure I want to do this."`
+			decline
+	label Yes
+	`	he says "okay, resign your name here." He points` 
 	name
-	`	Good to know. Here is a custom ship, have fun!`
 
 start "Atlantean"
 	name "Atlantean"
-	description `Cheat Atlantean.`
+	description `This is the start for the atlantean.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
 	system "Sole Der"
 	planet "Haldemdor"
-	conversation "blank"
+	conversation "Name"
 	account
 		credits 596000000000000
 		score 800
