@@ -1,13 +1,26 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 conversation "Name"
 	scene "scene/lobby"
-	`you step out of the elevator, and walk forwards to the high desk. In the backround, a map of atlantean space is projected on the wall. As you step forwards, the bank teller looks at you as if he's trying to decide to give you a loan or not. He tells you "sign here. And here, and here," until you are buried in a pile of papers, and he reasks you "are you sure? I asure you this is a non-returnable loan.`
-	choice 
+	`you step out of the elevator, and walk forwards to the high desk. In the background, a map of atlantean space is projected on the wall. As you step forwards, the bank teller looks at you as if he's trying to decide to give you a loan or not. He tells you "sign here. And here, and here," until you are buried in a pile of papers, and he re-asks you "are you sure? I assure you this is a non-returnable loan.`
+	choice
 		`	"yes, I'm sure"`
 			goto Yes
 		`	"no, I'm not sure I want to do this."`
 			decline
 	label Yes
-	`	he says "okay, resign your name here." He points` 
+	`	he says "okay, re-sign your name here." He points`
 	name
 
 start "Atlantean"
