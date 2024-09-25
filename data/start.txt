@@ -11,92 +11,24 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-conversation "Name"
-	scene "scene/lobby"
-	`you step out of the elevator, and walk forwards to the high desk. In the background, a map of atlantean space is projected on the wall. As you step forwards, the bank teller looks at you as if he's trying to decide to give you a loan or not. He tells you "sign here. And here, and here," until you are buried in a pile of papers, and he re-asks you "are you sure? I assure you this is a non-returnable loan.`
-	choice
-		`	"yes, I'm sure"`
-			goto Yes
-		`	"no, I'm not sure I want to do this."`
-			decline
-	label Yes
-	`	he says "okay, re-sign your name here." He points`
-	name
-
 start "Atlantean"
 	name "Atlantean"
-	description `This is the start for the atlantean.`
+	description `This is the start for the Atlantean.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
-	system "Sole Der"
+	system "Sol Der"
 	planet "Haldemdor"
-	conversation "Name"
+	conversation "atlantean start"
 	account
-		credits 596000000000000
-		score 800
+		score 300
+		credits 3500000
 	set "license: Pilot's"
-	ship Shark
-		sprite "ship/shark"
-		thumbnail "thumbnail/shark"
-		attributes
-			category "Interceptor"
-			"cost" 20000
-			"shields" 10
-			"hull" 400
-			"required crew" 1
-			"bunks" 1
-			"mass" 150
-			"drag" 1.5
-			"heat dissipation" .7
-			"fuel capacity" 0
-			"cargo space" 0
-			"outfit space" 14
-			"weapon capacity" 120
-			"engine capacity" 95
-			"energy generation" 50
-			weapon
-				"blast radius" 80
-				"shield damage" 800
-				"hull damage" 400
-				"hit force" 1200
-		outfits
-			"D46392 Steering"
-			"D46392 Reverse Thrusters"
-			"D46392 Thrusters"
-			"Electrite" 4
 
-		engine -17.5 32
-		gun -70.5 46
-			under
-		gun -21 102
-			under
-		turret -8 -7.5
-			under
-		turret -18.5 49
-			under
-		turret -10 74
-			under
-		turret -12 -38
-			under
-		engine 17.5 32
-		gun 70.5 46
-			under
-		gun 21 102
-			under
-		turret 8 -7.5
-			under
-		turret 18.5 49
-			under
-		turret 10 74
-			under
-		turret 12 -38
-			under
-		leak "leak" 50 50
-		leak "flame" 50 80
-		leak "big leak" 90 30
-		explode "tiny explosion" 10
-		explode "small explosion" 25
-		explode "medium explosion" 25
-		explode "large explosion" 10
-		"final explode" "final explosion medium"
-#		description "The Swallow is ideal for the Nightingale."
+conversation "atlantean start"
+	scene "scene/lobby"
+	`You step out of the elevator in the bank, and walk forwards to the high desk. In the background, a map of Atlantean space is projected on the wall. As you step forwards, the bank teller looks at you as if he's trying to decide to give you a loan or not. He tells you, "Sign here. And here, and here," until you are buried in a pile of papers. Then he re-asks you, "Are you sure? I remind you this is a non-returnable loan."`
+	choice
+		`	"Yes, I'm sure."`
+	`	He says "Very well, re-sign your name here." and points.`
+	name
+	`	You step backwards, out of the room, and sigh with relief that this went smoothly, instead of being arrested.`

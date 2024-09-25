@@ -1,9 +1,8 @@
 galaxy "Shent space"
-	pos 4253.5 7867.62
-	sprite ui/atlantean2
+	pos 1542 369.75
 
 system Aliani
-	pos 4224.5 7910.625
+	pos 1493 345.75
 	government Uninhabited
 	habitable 700
 	belt 1510 3
@@ -11,7 +10,7 @@ system Aliani
 	link Olin
 	asteroids "large metal" 42 2.759
 	minables aluminum 25 3
-	fleet "Small Ali-Ollinn" 100
+	fleet "" 100
 	object Death1
 		sprite "planet/Death wormhole"
 			scale 0.5
@@ -60,7 +59,7 @@ system Aliani
 		offset 225
 
 system Aniani
-	pos 3928.5 7831.625
+	pos 1197 266.75
 	government Uninhabited
 	habitable 750
 	belt 1808 7
@@ -120,7 +119,7 @@ system Aniani
 			period 350.073
 
 system Olin
-	pos 4273.5 7934.625
+	pos 1542 369.75
 	government Ali-Ollinn
 	habitable 5600
 	belt 1787 4
@@ -134,7 +133,7 @@ system Olin
 	asteroids "large metal" 4 5.491
 	minables titanium 5 7.52
 	minables lead 44 7.139
-	fleet "Small Ali-Ollinn" 400
+	fleet "" 400
 	object
 		sprite star/b5
 		period 10
@@ -169,7 +168,7 @@ planet Caldom
 	spaceport "this probably was made by millions of slaves, for otherwise it wouldn't be this big."
 
 system Alani
-	pos 3861 8026.125
+	pos 1129.5 461.25
 	government Uninhabited
 	habitable 150
 	belt 1738 2
@@ -214,7 +213,7 @@ system Alani
 		period 11585.131
 
 system Alina
-	pos 3896 7999.125
+	pos 1164.5 434.25
 	government Uninhabited
 	habitable 10000
 	belt 1402 7
@@ -248,7 +247,7 @@ system Alina
 		period 909.388
 
 system "Sole Rel"
-	pos 3990 7958.625
+	pos 1258.5 393.75
 	government Uninhabited
 	habitable 11850
 	link Alicake
@@ -290,7 +289,7 @@ system "Sole Rel"
 			period 351.803
 
 system Alicake
-	pos 3986 7890.125
+	pos 1254.5 325.25
 	government Uninhabited
 	habitable 13720
 	belt 1827 5
@@ -369,7 +368,7 @@ system Alicake
 		period 12432.837
 
 system Alinaia
-	pos 3933.5 7979.125
+	pos 1202 414.25
 	government Uninhabited
 	habitable 35
 	belt 1369 8
@@ -438,7 +437,7 @@ system Alinaia
 			period 141.833
 
 system Alin
-	pos 3909.5 8059.625
+	pos 1178 494.75
 	government Uninhabited
 	habitable 8650
 	belt 1629 2
@@ -478,7 +477,7 @@ system Alin
 			period 105.667
 
 system Alinina
-	pos 3835.5 7909.625
+	pos 1104 344.75
 	government Uninhabited
 	habitable 3450
 	belt 1357 6
@@ -525,7 +524,7 @@ system Alinina
 			period 119.348
 
 system Baliii
-	pos 3889.5 7954.125
+	pos 1158 389.25
 	government Uninhabited
 	habitable 625
 	belt 1184 10
@@ -570,7 +569,7 @@ system Baliii
 		period 4415.858
 
 system Balim
-	pos 3836 7966.625
+	pos 1104.5 401.75
 	government Uninhabited
 	habitable 5609.135
 	belt 1275 6
@@ -640,7 +639,6 @@ system Balim
 		distance 1117.8
 
 planet Reson
-	wormhole Reson
 
 wormhole Reson
 	link Govred Falam
@@ -648,7 +646,6 @@ wormhole Reson
 	color "wormholes: Ember Waste"
 
 planet ???
-	wormhole sendo
 
 wormhole sendo
 	link Cartack Targon
@@ -656,7 +653,6 @@ wormhole sendo
 	color "wormholes: Ember Waste"
 
 planet "Atlantean Wormhole"
-	wormhole "Atlantean Wormhole"
 
 wormhole "Atlantean Wormhole"
 	link Vaiov Balim
@@ -664,69 +660,60 @@ wormhole "Atlantean Wormhole"
 	color "wormholes: Ember Waste"
 
 planet Red1
-	wormhole Red1
 
 wormhole Red1
 	link Aliani Falam
 	color "wormholes: Ember Waste"
 
 planet Red2
-	wormhole Red2
 
 wormhole Red2
 	link Aliani Alinina
 	color "wormholes: Ember Waste"
 
 planet Blue1
-	wormhole Blue1
 
 wormhole Blue1
 	link Aliani Geoto
 	color "wormholes: Ember Waste"
 
 planet Blue2
-	wormhole Blue2
 
 wormhole Blue2
 	link Aliani Juoken
 	color "wormholes: Ember Waste"
 
 planet Yellow1
-	wormhole Yellow1
 
 wormhole Yellow1
 	link Aliani Cabiand
 	color "wormholes: Ember Waste"
 
 planet Yellow2
-	wormhole Yellow1
 
 wormhole Yellow2
 	link Aliani Guodre
 	color "wormholes: Ember Waste"
 
 planet Green1
-	wormhole Green1
 
 wormhole Green1
 	link Aliani Alnor
 	color "wormholes: Ember Waste"
 
 planet Green2
-	wormhole Green2
 
 wormhole Green2
 	link Aliani Herlo
 	color "wormholes: Ember Waste"
 
 planet Death1
-	wormhole Death1
 
 wormhole Death1
 	link Aliani Alfanian
 
 system Alfanian
-	pos 4159.125 7846.375
+	pos 1427.625 281.5
 	government Uninhabited
 	hazard "Black Hole Accretion Disk" 1
 	hazard "Black Hole Gravity" 1
@@ -736,7 +723,7 @@ system Alfanian
 		period 1
 
 system Abanab
-	pos 3995 7804.125
+	pos 1263.5 239.25
 	government Uninhabited
 	habitable 2228.924
 	belt 1366 3
@@ -789,7 +776,7 @@ system Abanab
 			period 147.631
 
 system Herlo
-	pos 4016 7744.625
+	pos 1284.5 179.75
 	government Neerg
 	habitable 3429.65
 	belt 1508 3
@@ -857,7 +844,7 @@ system Herlo
 			period 474.342
 
 system Fandoff
-	pos 4039 7832.125
+	pos 1307.5 267.25
 	government Uninhabited
 	habitable 8964.374
 	belt 1168 10
@@ -903,7 +890,7 @@ system Fandoff
 			period 178.131
 
 system Golderfincan
-	pos 4068 7781.125
+	pos 1336.5 216.25
 	government Uninhabited
 	habitable 230
 	belt 1726 7
@@ -948,7 +935,7 @@ system Golderfincan
 		period 10576.814
 
 system Guodre
-	pos 4073.5 7704.625
+	pos 1342 139.75
 	government Wolley
 	habitable 22321.523
 	belt 1043 4
@@ -1005,7 +992,7 @@ system Guodre
 			period 415.936
 
 system Cabiand
-	pos 4266.5 7675.625
+	pos 1535 110.75
 	government Wolley
 	habitable 6300
 	belt 1749 5
@@ -1057,7 +1044,7 @@ system Cabiand
 			period 252.838
 
 system Fandoder
-	pos 4192.5 7707.625
+	pos 1461 142.75
 	government Uninhabited
 	habitable 5000
 	belt 1839 5
@@ -1115,7 +1102,7 @@ system Fandoder
 		period 7191.171
 
 system Geoto
-	pos 4239.5 7780.625
+	pos 1508 215.75
 	government Uninhabited
 	habitable 1319.735
 	belt 1536 10
@@ -1164,7 +1151,7 @@ system Geoto
 		period 2891.687
 
 system Zepodon
-	pos 4127 7640.625
+	pos 1395.5 75.75
 	government Uninhabited
 	habitable 1385.135
 	belt 1631 9
@@ -1228,7 +1215,7 @@ system Zepodon
 			period 137.919
 
 system "Sol Der"
-	pos 4070.5 7989.625
+	pos 1339 424.75
 	government Atlantean
 	link Falson
 	link Mordol
@@ -1245,9 +1232,6 @@ system "Sol Der"
 	fleet "Small Atlantean" 300
 	fleet "Large Atlantean" 400
 	fleet "Medium Atlantean" 600
-		object
-		sprite star/k-giant
-		period 10
 	object
 		sprite planet/gas15
 		distance 639
@@ -1301,7 +1285,7 @@ planet Haldemdor
 	outfitter Atlantean
 
 system Alnor
-	pos 4107 7801.625
+	pos 1375.5 236.75
 	government Neerg
 	habitable 2300
 	belt 1371 10
@@ -1362,7 +1346,7 @@ system Alnor
 		period 9400.236
 
 system Havlen
-	pos 4090.5 7857.625
+	pos 1359 292.75
 	government Uninhabited
 	habitable 11850
 	belt 1485 9
@@ -1441,7 +1425,7 @@ system Havlen
 		offset 46
 
 system Mzas
-	pos 4055.5 7873.625
+	pos 1324 308.75
 	government Uninhabited
 	habitable 8919.641
 	belt 1402 5
@@ -1505,7 +1489,7 @@ system Mzas
 			period 845.729
 
 system Falson
-	pos 4071.5 7934.625
+	pos 1340 369.75
 	government Uninhabited
 	habitable 4050
 	belt 1144 5
@@ -1557,7 +1541,7 @@ system Falson
 			period 421.808
 
 system Joun
-	pos 4198 7667.625
+	pos 1466.5 102.75
 	government Atlantean
 	habitable 450
 	belt 1300 7
@@ -1605,7 +1589,7 @@ planet Destor
 	outfitter Atlantean
 
 system Lightingladfandower
-	pos 4267.5 7734.625
+	pos 1536 169.75
 	government Atlantean
 	habitable 4050
 	belt 1098 3
@@ -1680,7 +1664,7 @@ system Lightingladfandower
 		offset 46
 
 system Loknen
-	pos 4139.5 7741.625
+	pos 1408 176.75
 	government Uninhabited
 	habitable 33450
 	belt 1400 2
@@ -1750,7 +1734,7 @@ planet Feven
 		fleet "Large Atlantean" 400
 
 system Govred
-	pos 3732 7493.625
+	pos 1000.5 -71.25
 	government Uninhabited
 	habitable 2160
 	belt 1167 3
@@ -1800,7 +1784,7 @@ system Govred
 			period 127.578
 
 system Gldod
-	pos 3779.5 7545.625
+	pos 1048 -19.25
 	government Uninhabited
 	habitable 8400
 	belt 1923 3
@@ -1836,7 +1820,7 @@ system Gldod
 			period 165.007
 
 system Alagronder
-	pos 3743.5 7600.125
+	pos 1012 35.25
 	government Uninhabited
 	habitable 2560
 	belt 1804 3
@@ -1876,7 +1860,7 @@ system Alagronder
 		period 1225.701
 
 system Falam
-	pos 3933.5 7927.625
+	pos 1202 362.75
 	government Uninhabited
 	habitable 30
 	belt 1862 6
@@ -1946,7 +1930,7 @@ system Falam
 			period 734.514
 
 system Juoken
-	pos 3893.5 7883.625
+	pos 1162 318.75
 	government Uninhabited
 	habitable 0
 	belt 1375 7
@@ -1985,7 +1969,7 @@ system Juoken
 		distance 3438
 
 system Jockon
-	pos 3653 7608.125
+	pos 921.5 43.25
 	government Uninhabited
 	habitable 14120.287
 	belt 1954 5
@@ -2033,7 +2017,7 @@ system Jockon
 		period 1482.667
 
 system Solon
-	pos 3636 7686.125
+	pos 904.5 121.25
 	government Uninhabited
 	habitable 980
 	belt 1793 3
@@ -2097,7 +2081,7 @@ system Solon
 			period 386.991
 
 system Ason
-	pos 3554 7698.625
+	pos 822.5 133.75
 	government Uninhabited
 	habitable 22300.002
 	belt 1455 5
@@ -2163,7 +2147,7 @@ system Ason
 		period 2100.966
 
 system Redes
-	pos 3568.5 7784.625
+	pos 837 219.75
 	government Blue--eulb
 	habitable 6577.424
 	belt 1988 2
@@ -2211,7 +2195,7 @@ planet Losen
 	government Blue--eulb
 
 system Solon
-	pos 3636 7686.125
+	pos 904.5 121.25
 	government Uninhabited
 	habitable 980
 	belt 1793 3
@@ -2275,7 +2259,7 @@ system Solon
 			period 386.991
 
 system Ason
-	pos 3554 7698.625
+	pos 822.5 133.75
 	government Uninhabited
 	habitable 22300.002
 	belt 1455 5
@@ -2341,7 +2325,7 @@ system Ason
 		period 2100.966
 
 system Redes
-	pos 3568.5 7784.625
+	pos 837 219.75
 	government Blue--eulb
 	habitable 6577.424
 	belt 1988 2
@@ -2386,7 +2370,7 @@ system Redes
 		period 1357.846
 
 system Cartack
-	pos 5352.5 7633.625
+	pos 2004.5 116
 	government Uninhabited
 	link "Pug Synth"
 	asteroids "small rock" 2 2.184
@@ -2409,7 +2393,7 @@ system Cartack
 		sprite planet/gas2
 		distance 2333
 		period 555.782
-	object sendo
+	object ""
 		sprite planet/gas12-b
 		distance 3258
 		period 917.189
@@ -2423,7 +2407,7 @@ system Cartack
 		period 1357.846
 
 system "Pug Synth"
-	pos 5415.5 7699.625
+	pos 2067.5 182
 	government "Pug (Olin)"
 	link Cartack
 	asteroids "small rock" 2 2.184
@@ -2461,7 +2445,7 @@ system "Pug Synth"
 		period 1357.846
 
 system Targon
-	pos 4356.5 7973.625
+	pos 1625 408.75
 	government Uninhabited
 	habitable 12050.934
 	belt 1508 2
@@ -2485,7 +2469,7 @@ system Targon
 		sprite planet/gas0-hot
 		distance 945
 		period 105.852
-	object sendo
+	object ""
 		sprite planet/wormhole-red
 		distance 1386.892
 		period 197.04
@@ -2507,7 +2491,7 @@ system Targon
 		period 1580.867
 
 system Kilni
-	pos 3898 7733.625
+	pos 1166.5 168.75
 	government Uninhabited
 	habitable 4500
 	belt 1870 6
@@ -2566,7 +2550,7 @@ planet semo
 	government "Pug (Olin)"
 
 system Nerlono
-	pos -1517.63 231.214
+	pos 84.37 67.714
 	government Neerg
 	habitable 2160
 	belt 1358 2
@@ -2618,7 +2602,7 @@ system Nerlono
 		period 3151.255
 
 system Cardland
-	pos 3952.5 8034.625
+	pos 1221 469.75
 	government Uninhabited
 	habitable 3771.604
 	belt 1266 7
@@ -2677,7 +2661,7 @@ system Cardland
 		period 1465.884
 
 system Mordol
-	pos 4035.5 8055.625
+	pos 1304 490.75
 	government Uninhabited
 	habitable 22300
 	belt 1625 8
@@ -2729,7 +2713,7 @@ system Mordol
 		period 3105.876
 
 system Crablas
-	pos 4967.5 7360.625
+	pos 1619.5 -157
 	government Uninhabited
 	habitable 4050
 	belt 1227 9
@@ -2777,7 +2761,7 @@ system Crablas
 			period 161.226
 
 system Joleb
-	pos 4902.5 7331.625
+	pos 1554.5 -186
 	government Uninhabited
 	habitable 230
 	belt 1348 6
@@ -2817,7 +2801,7 @@ system Joleb
 			period 410.01
 
 system Kolnord
-	pos 4812.5 7304.625
+	pos 1464.5 -213
 	government Uninhabited
 	habitable 11781.494
 	belt 1602 5
@@ -2888,7 +2872,7 @@ system Kolnord
 			period 170.417
 
 system Ilible
-	pos 4752.5 7329.625
+	pos 1404.5 -188
 	government Uninhabited
 	habitable 3000
 	belt 1182 7
@@ -2942,7 +2926,7 @@ system Ilible
 		period 5351.492
 
 system Kold
-	pos 4690.5 7367.625
+	pos 1342.5 -150
 	government Uninhabited
 	habitable 13754.955
 	belt 1108
@@ -3000,7 +2984,7 @@ system Kold
 			period 380.791
 
 system Maldas
-	pos 4630.5 7413.625
+	pos 1282.5 -104
 	government Uninhabited
 	habitable 160
 	belt 1391 9
@@ -3043,7 +3027,7 @@ system Maldas
 		period 6742.482
 
 system Hibg'cas
-	pos 5043.5 7404.625
+	pos 1695.5 -113
 	government Uninhabited
 	habitable 6300
 	belt 1272 2
@@ -3083,7 +3067,7 @@ system Hibg'cas
 		period 4119.841
 
 system Tosyend
-	pos 5112.5 7447.625
+	pos 1764.5 -70
 	government Uninhabited
 	habitable 8400
 	belt 1765 8
@@ -3128,7 +3112,7 @@ system Tosyend
 			period 120.653
 
 system Lemord
-	pos 5195.5 7501.625
+	pos 1847.5 -16
 	government Uninhabited
 	habitable 6352.952
 	belt 1017 7
@@ -3181,7 +3165,7 @@ system Lemord
 		period 2355.156
 
 system Kolndorsed
-	pos 5277.5 7570.625
+	pos 1929.5 53
 	government Uninhabited
 	habitable 9388.557
 	belt 1641 9
