@@ -1,3 +1,8 @@
+shipyard "Atlantean Basics"
+	"Tiburon"
+	"Litera"
+	"Barco"
+
 shipyard Atlantean
 	"Ruisenor"
 	"Envio"
@@ -21,6 +26,7 @@ shipyard Atlantean
 	"Battlezone"
 	"Combatrealm"
 	"Hai Invader"
+	"Litera"
 
 shipyard Olin
 	Thorn

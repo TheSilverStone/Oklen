@@ -1851,3 +1851,85 @@ ship "Envio"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Behemoth is a recent ship design from Betelgeuse Shipyards, designed as an alternative to the Syndicate Bulk Freighter. Although its cargo capacity is somewhat lower, it is also more maneuverable, and packs a heavier armament by default."
+
+ship "Litera"
+	sprite "ship/heavy shuttle"
+	thumbnail "thumbnail/heavy shuttle"
+	attributes
+		category "Transport"
+		"cost" 430000
+		"shields" 600
+		"hull" 400
+		"required crew" 1
+		"bunks" 15
+		"mass" 110
+		"drag" 2.1
+		"heat dissipation" .73
+		"fuel capacity" 300
+		"cargo space" 70
+		"outfit space" 160
+		"weapon capacity" 16
+		"engine capacity" 65
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -6.5 38.5
+	engine 6.5 38.5
+	gun -3 -38.5
+	gun 3 -38.5
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "The Heavy Litera is an updated Litera model from Opal Shipyards, attempting to improve on their perennial classic by offering slightly better cargo and passenger capacity, at the expense of some speed and maneuverability."
+
+ship "Barco"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes
+		category "Transport"
+		"cost" 43000
+		"shields" 400
+		"hull" 200
+		"required crew" 1
+		"bunks" 4
+		"mass" 110
+		"drag" 2.1
+		"heat dissipation" .73
+		"fuel capacity" 400
+		"cargo space" 25
+		"outfit space" 110
+		"weapon capacity" 16
+		"engine capacity" 65
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -6.5 38.5
+	engine 6.5 38.5
+	gun -3 -38.5
+	gun 3 -38.5
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "The Heavy Litera is an updated Litera model from Opal Shipyards, attempting to improve on their perennial classic by offering slightly better cargo and passenger capacity, at the expense of some speed and maneuverability."

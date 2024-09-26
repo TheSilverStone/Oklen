@@ -10,7 +10,7 @@ system Aliani
 	link Olin
 	asteroids "large metal" 42 2.759
 	minables aluminum 25 3
-	fleet "" 100
+	fleet "Small Olin" 100
 	object Death1
 		sprite "planet/Death wormhole"
 			scale 0.5
@@ -133,7 +133,7 @@ system Olin
 	asteroids "large metal" 4 5.491
 	minables titanium 5 7.52
 	minables lead 44 7.139
-	fleet "" 400
+	fleet "Small Olin" 400
 	object
 		sprite star/b5
 		period 10
@@ -639,6 +639,7 @@ system Balim
 		distance 1117.8
 
 planet Reson
+	wormhole Reson
 
 wormhole Reson
 	link Govred Falam
@@ -646,6 +647,7 @@ wormhole Reson
 	color "wormholes: Ember Waste"
 
 planet ???
+	wormhole sendo
 
 wormhole sendo
 	link Cartack Targon
@@ -653,6 +655,7 @@ wormhole sendo
 	color "wormholes: Ember Waste"
 
 planet "Atlantean Wormhole"
+	wormhole "Atlantean Wormhole"
 
 wormhole "Atlantean Wormhole"
 	link Vaiov Balim
@@ -660,54 +663,63 @@ wormhole "Atlantean Wormhole"
 	color "wormholes: Ember Waste"
 
 planet Red1
+	wormhole Red1
 
 wormhole Red1
 	link Aliani Falam
 	color "wormholes: Ember Waste"
 
 planet Red2
+	wormhole Red2
 
 wormhole Red2
 	link Aliani Alinina
 	color "wormholes: Ember Waste"
 
 planet Blue1
+	wormhole Blue1
 
 wormhole Blue1
 	link Aliani Geoto
 	color "wormholes: Ember Waste"
 
 planet Blue2
+	wormhole Blue2
 
 wormhole Blue2
 	link Aliani Juoken
 	color "wormholes: Ember Waste"
 
 planet Yellow1
+	wormhole Yellow1
 
 wormhole Yellow1
 	link Aliani Cabiand
 	color "wormholes: Ember Waste"
 
 planet Yellow2
+	wormhole Yellow1
 
 wormhole Yellow2
 	link Aliani Guodre
 	color "wormholes: Ember Waste"
 
 planet Green1
+	wormhole Green1
 
 wormhole Green1
 	link Aliani Alnor
 	color "wormholes: Ember Waste"
 
 planet Green2
+	wormhole Green2
 
 wormhole Green2
 	link Aliani Herlo
 	color "wormholes: Ember Waste"
 
 planet Death1
+	wormhole Death1
 
 wormhole Death1
 	link Aliani Alfanian
@@ -1348,81 +1360,57 @@ system Alnor
 system Havlen
 	pos 1359 292.75
 	government Uninhabited
-	habitable 11850
-	belt 1485 9
-	belt 1576 7
+	habitable 6075
+	belt 1733 3
 	link Alnor
 	link Mzas
-	asteroids "small rock" 1 1.91
-	asteroids "medium rock" 1 1.944
-	asteroids "large rock" 1 2.592
-	asteroids "large metal" 2 2.592
+	asteroids "small rock" 2 4.34
+	asteroids "medium rock" 55 6.51
+	asteroids "large rock" 54 3.85
+	asteroids "small metal" 40 4.62
+	asteroids "medium metal" 13 5.25
+	asteroids "large metal" 2 6.02
+	minables titanium 2 8.615
+	minables tungsten 3 7.016
 	object
-		sprite star/protostar-orange
-		distance 347.5
-		period 323.893
-		offset 180
+		sprite star/g-supergiant
+		period 10
 	object
-		sprite star/a-supergiant
-		distance 347.5
-		period 323.893
+		sprite planet/rock13
+		distance 750
+		period 105.409
 	object
-		sprite planet/vesvi
-		distance 1501
-		period 213.684
+		sprite planet/gas14-b
+		distance 1702
+		period 360.351
 		object
-			sprite planet/dust4
-			distance 445
-			period 291.957
-		object
-			sprite planet/ice7
-			distance 626
-			period 409.901
-	object
-		sprite planet/gas10-hot
-		distance 2716
-		period 520.11
-		object
+			sprite planet/dust1-b
+			distance 235
+			period 112.042
+		object "Kilnibarg"
 			sprite planet/rock3-b
-			distance 212
-			period 116.682
-		object
-			sprite planet/rock7
-			distance 354
-			period 315.077
+			distance 394
+			period 295.628
 	object
-		sprite planet/gas13-b
-		distance 3984
-		period 924.017
+		sprite planet/gas7
+		distance 3459
+		period 1044.029
 		object
-			sprite planet/callisto-b
-			distance 283
-			period 124.594
+			sprite planet/tethys
+			distance 272
+			period 276.279
+	object
+		sprite planet/jupiter
+		distance 6247
+		period 2533.927
 		object
-			sprite planet/dust4-b
-			distance 420
-			period 267.703
-	object
-		sprite planet/gas2-b
-		distance 5736
-		period 1596.3
-	object
-		sprite planet/gas13
-		distance 8866
-		period 3067.555
-		object Rafuler
-			sprite planet/station3
-			distance 280
-			period 177.108
+			sprite planet/dust0
+			distance 274
+			period 279.332
 		object
-			sprite planet/rock7-b
-			distance 437
-			period 432.149
-	object
-		sprite planet/wormhole-red
-		distance 752.65
-		period 123
-		offset 46
+			sprite planet/rock14-b
+			distance 423
+			period 227.682
 
 system Mzas
 	pos 1324 308.75
@@ -1582,7 +1570,7 @@ system Joun
 			period 129.282
 
 planet Destor
-	landscape land/Destor
+	landscape land/badlands2
 	description "This is a desert planet, and the climate is hot."
 	spaceport "The spaceport is carved into the side of a cliff."
 	shipyard Atlantean
@@ -2370,7 +2358,7 @@ system Redes
 		period 1357.846
 
 system Cartack
-	pos 2004.5 116
+	pos 1809.5 301
 	government Uninhabited
 	link "Pug Synth"
 	asteroids "small rock" 2 2.184
@@ -2407,7 +2395,7 @@ system Cartack
 		period 1357.846
 
 system "Pug Synth"
-	pos 2067.5 182
+	pos 1796.5 370
 	government "Pug (Olin)"
 	link Cartack
 	asteroids "small rock" 2 2.184
@@ -2713,7 +2701,7 @@ system Mordol
 		period 3105.876
 
 system Crablas
-	pos 1619.5 -157
+	pos 1618.5 2
 	government Uninhabited
 	habitable 4050
 	belt 1227 9
@@ -2761,7 +2749,7 @@ system Crablas
 			period 161.226
 
 system Joleb
-	pos 1554.5 -186
+	pos 1537.5 -25
 	government Uninhabited
 	habitable 230
 	belt 1348 6
@@ -2801,7 +2789,7 @@ system Joleb
 			period 410.01
 
 system Kolnord
-	pos 1464.5 -213
+	pos 1456.5 -62
 	government Uninhabited
 	habitable 11781.494
 	belt 1602 5
@@ -2872,7 +2860,7 @@ system Kolnord
 			period 170.417
 
 system Ilible
-	pos 1404.5 -188
+	pos 1380.5 -94
 	government Uninhabited
 	habitable 3000
 	belt 1182 7
@@ -2926,7 +2914,7 @@ system Ilible
 		period 5351.492
 
 system Kold
-	pos 1342.5 -150
+	pos 1306.5 -34
 	government Uninhabited
 	habitable 13754.955
 	belt 1108
@@ -2984,7 +2972,7 @@ system Kold
 			period 380.791
 
 system Maldas
-	pos 1282.5 -104
+	pos 1265.5 55
 	government Uninhabited
 	habitable 160
 	belt 1391 9
@@ -3027,7 +3015,7 @@ system Maldas
 		period 6742.482
 
 system Hibg'cas
-	pos 1695.5 -113
+	pos 1682.5 55
 	government Uninhabited
 	habitable 6300
 	belt 1272 2
@@ -3067,7 +3055,7 @@ system Hibg'cas
 		period 4119.841
 
 system Tosyend
-	pos 1764.5 -70
+	pos 1741.5 107
 	government Uninhabited
 	habitable 8400
 	belt 1765 8
@@ -3112,7 +3100,7 @@ system Tosyend
 			period 120.653
 
 system Lemord
-	pos 1847.5 -16
+	pos 1772.5 192
 	government Uninhabited
 	habitable 6352.952
 	belt 1017 7
@@ -3165,7 +3153,7 @@ system Lemord
 		period 2355.156
 
 system Kolndorsed
-	pos 1929.5 53
+	pos 1782.5 260
 	government Uninhabited
 	habitable 9388.557
 	belt 1641 9
@@ -3226,7 +3214,7 @@ system Kolndorsed
 planet Kimsonol
 	landscape land/badlands3
 	description "This planet orbits a small red star, and many animals and insects are here. dosn't really belong to any off these, but is used (and often inhabitied) by the Olin."
-	spaceport "there is hardly anything, and there aren't enough captins who have jobs to offer to get a one."
-	government Cormon
+	spaceport "there is hardly anything, and there aren't enough captains who have jobs to offer to get a one."
+	government Uninhabited
 	tribute 120
 

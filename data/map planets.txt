@@ -54,3 +54,11 @@ planet Pug Seno
 	government Pug (olin)
 	tribute 5981
 		threshold 6000
+
+planet Kilnibarg
+	landscape land/badlands6
+	description "This planet orbits a bright yellow star, a source of energy, and a astroid belt often rains down, resulting in many deaths."
+	spaceport "there is hardly anything, and there aren't enough captains who have jobs to offer to get a one."
+	government Atlantean
+	shipyard "Atlantean Basics"
+	tribute 120

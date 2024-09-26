@@ -16,8 +16,8 @@ start "Atlantean"
 	description `This is the start for the Atlantean.`
 	thumbnail "scene/lobby"
 	date 16 11 3013
-	system "Sol Der"
-	planet "Haldemdor"
+	system "Havlen"
+	planet "Kilnibarg"
 	conversation "atlantean start"
 	account
 		score 300
@@ -31,4 +31,4 @@ conversation "atlantean start"
 		`	"Yes, I'm sure."`
 	`	He says "Very well, re-sign your name here." and points.`
 	name
-	`	You step backwards, out of the room, and sigh with relief that this went smoothly, instead of being arrested.`
+	`	You step backwards, out of the room, and sigh with relief that this went smoothly, instead of the bank teller refusing to give you a loan.`
